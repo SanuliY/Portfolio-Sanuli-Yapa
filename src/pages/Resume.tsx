@@ -119,6 +119,38 @@ export default function Resume() {
                       ))}
                     </ul>
                   </div>
+                  <div className="space-y-4">
+                    <h3 className="text-sm uppercase tracking-wide text-muted-foreground font-bold">
+                      References
+                    </h3>
+
+                    {resumeData.references.map((reference, index) => (
+                      <div
+                        key={index}
+                        className="space-y-1 border border-border rounded-xl p-4"
+                      >
+                        <h4 className="font-bold">
+                          {reference.name}
+                        </h4>
+
+                        <p className="text-sm text-muted-foreground">
+                          {reference.role}
+                        </p>
+
+                        <p className="text-sm text-muted-foreground">
+                          {reference.organization}
+                        </p>
+
+                        <p className="text-sm break-all">
+                          {reference.email}
+                        </p>
+
+                        <p className="text-sm">
+                          {reference.phone}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

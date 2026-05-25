@@ -3,6 +3,7 @@ import type { ResumeData } from '@/types';
 export const resumeData: ResumeData = {
   cvUrl: '/cv/sanuli-yapa-cv.pdf',
   cvFileName: 'Sanuli-Yapa-CV.pdf',
+
   education: [
     {
       period: '2024 — Present',
@@ -25,50 +26,38 @@ export const resumeData: ResumeData = {
       description: 'Successfully completed with 8A passes and 1B pass.',
     },
   ],
+
   projects: [
     {
       period: 'Ongoing',
       title: 'Elephant Railway Alert System — E.R.A.S',
-      subtitle: 'Railway Safety System',
+      subtitle: 'Smart Railway Safety System',
       description:
-        'Developing an intelligent railway safety solution integrating CCTV-based detection and microwave radar sensors to identify elephants near railway tracks and generate real-time alerts.',
+        'Contributing to the development of an intelligent railway safety solution integrating CCTV-based detection and microwave radar sensors to identify elephants near railway tracks and generate real-time mobile alerts for collision prevention.',
     },
     {
       period: '2026',
-      title: 'Performance Pulse',
-      subtitle: 'Sports Performance Analytics Platform',
+      title: 'StudySprint',
+      subtitle: 'Luxury Study Planner',
       description:
-        'Designed a modern athlete analytics dashboard focused on tracking player performance, statistics, and sports development insights for coaches and teams.',
+        'Designed and developed a cinematic productivity platform focused on helping students organize tasks, manage focus sessions, and improve study routines through immersive UI design and responsive frontend development.',
     },
     {
       period: '2026',
-      title: 'Mental Health Support Application',
-      subtitle: 'Mobile App Concept',
+      title: 'ATS-Friendly Resume Checker',
+      subtitle: 'AI-Assisted Resume Analysis Tool',
       description:
-        'Created UI/UX concepts and frontend flows for a student-centered mental health and mood tracking application.',
-    },
-    {
-      period: '2026',
-      title: 'AI Resume Builder',
-      subtitle: 'ATS Friendly Web Application',
-      description:
-        'Developed responsive resume-building concepts optimized for modern Applicant Tracking Systems with clean professional UI.',
-    },
-    {
-      period: '2026',
-      title: 'Tourism & Travel Planner',
-      subtitle: 'Frontend Development Project',
-      description:
-        'Built an immersive travel planning experience featuring responsive UI, destination suggestions, and modern frontend animations.',
+        'Designed and developed a responsive resume analysis web application focused on improving Applicant Tracking System compatibility through AI-assisted feedback, keyword optimization, and clean user-focused workflows.',
     },
   ],
+
   experience: [
     {
       period: '2025 — Present',
-      title: 'Frontend Development & UI/UX Practice',
-      organization: 'Self Learning & Personal Projects',
+      title: 'Frontend Developer & UI/UX Designer',
+      organization: 'Personal Projects & Independent Learning',
       description:
-        'Continuously improving frontend engineering, responsive design, creative animations, and user experience design through practical projects.',
+        'Building responsive web applications and immersive digital experiences while improving frontend engineering, UI/UX design, creative development, and modern web technologies through self-directed projects.',
     },
     {
       period: '2026 — Present',
@@ -76,42 +65,72 @@ export const resumeData: ResumeData = {
       organization:
         'Computer Society • Computer Intelligence Society • Robotics & Automation Society',
       description:
-        'Actively participating in computing-related student activities, technical learning, and collaborative university events.',
+        'Actively participating in computing-related student activities, technical learning, collaborative university events, and innovation-focused communities.',
     },
     {
       period: 'Volunteer',
       title: 'University Volunteer',
       organization: 'Student Activities',
       description:
-        'Volunteered for a community service project, contributing to the development of a website for the organization.',
+        'Contributed to university and community activities through collaborative volunteering and project support initiatives.',
     },
   ],
+
   softwareTools: [
     'Java',
     'Python',
     'HTML',
     'CSS',
     'JavaScript',
+    'TypeScript',
     'ReactJS',
     'Tailwind CSS',
+    'Next.js',
     'Figma',
+    'Flutter',
     'Git',
+    'GitHub',
+    'My SQL',
+    'Cypress',
+    'Postman',
+    'Selenium',
   ],
+
   certifications: [
     'Microsoft Azure Data Fundamentals — 2025',
     'Microsoft Azure AI Fundamentals — 2025',
   ],
+
   softSkills: [
     'Teamwork',
     'Communication',
     'Problem Solving',
+    'Critical Thinking',
     'Time Management',
     'Adaptability',
     'Leadership',
   ],
+
   languages: [
     { language: 'English', level: 'Fluent' },
     { language: 'Sinhala', level: 'Native' },
     { language: 'Tamil', level: 'Reading & Writing' },
+  ],
+
+  references: [
+    {
+      name: 'Asha Jayakody',
+      role: 'Senior Lecturer',
+      organization: 'Informatics Institute of Technology',
+      email: 'asha.j@iit.ac.lk',
+      phone: '(+94) 761433440',
+    },
+    {
+      name: 'Sanjalee Tissera',
+      role: 'Assistant Lecturer',
+      organization: 'Informatics Institute of Technology',
+      email: 'sanjalee.t@iit.ac.lk',
+      phone: '(+94) 763746806',
+    },
   ],
 };

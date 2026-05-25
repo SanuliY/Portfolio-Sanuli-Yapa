@@ -1,6 +1,6 @@
-import type { PhotographerInfo } from '@/types';
+import type { DeveloperInfo } from '@/types';
 
-export const photographerInfo: PhotographerInfo = {
+export const developerInfo: DeveloperInfo = {
   name: 'Sanuli Yapa',
   tagline: 'Frontend Developer · UI/UX Designer · QA Enthusiast',
   heroIntroduction:
@@ -81,6 +81,6 @@ Whether it's a research-driven project, a hackathon prototype, or a UI/UX explor
     linkedin: 'https://linkedin.com/in/sanuli-yapa',
     instagram: 'https://instagram.com/',
   },
-  portraitImage:
+  profileImage:
     'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
 };

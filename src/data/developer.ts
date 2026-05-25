@@ -71,15 +71,18 @@ Whether it's a research-driven project, a hackathon prototype, or a UI/UX explor
     { language: 'Sinhala', level: 'Native proficiency' },
     { language: 'Tamil', level: 'Reading & writing' },
   ],
-  education: 'BSc (Hons) Computer Science — University of Westminster • IIT Sri Lanka',
+  education: `BSc (Hons)
+Computer Science
+University of Westminster
+Informatics Institute of Technology (IIT) Sri Lanka`,
   location: 'Sri Lanka',
   email: 'sanulisenarath@gmail.com',
   phone: '+94 76 381 9478',
   availability: 'Open to internships, freelance opportunities, and creative collaborations.',
   socialLinks: {
-    github: 'https://github.com/sanuli-yapa',
-    linkedin: 'https://linkedin.com/in/sanuli-yapa',
-    instagram: 'https://instagram.com/',
+    github: 'https://github.com/SanuliY',
+    linkedin: 'https://www.linkedin.com/in/sanuli-yapa-55b01a333/',
+    instagram: 'https://www.instagram.com/?hl=en',
   },
   profileImage:
     'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',

@@ -90,6 +90,14 @@ export interface ResumeEntry {
   description: string;
 }
 
+export interface ReferenceItem {
+  name: string;
+  role: string;
+  organization: string;
+  email: string;
+  phone: string;
+}
+
 export interface ResumeData {
   cvUrl: string;
   cvFileName: string;
@@ -100,4 +108,5 @@ export interface ResumeData {
   certifications: string[];
   softSkills: string[];
   languages: LanguageItem[];
+  references: ReferenceItem[];
 }

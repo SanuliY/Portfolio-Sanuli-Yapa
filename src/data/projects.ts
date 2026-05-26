@@ -1,9 +1,5 @@
 import type { Project } from '@/types';
 
-/**
- * Sanuli's project portfolio.
- * Each project links out to its GitHub repository.
- */
 export const projects: Project[] = [
   {
     id: '1',
@@ -18,8 +14,7 @@ export const projects: Project[] = [
       'A railway safety solution integrating CCTV-based detection and early-warning alerts to help prevent train–elephant collisions. My focus is on the frontend dashboard and alert visualization for railway operators.',
     tech: ['React', 'TailwindCSS', 'Computer Vision', 'IoT'],
     role: 'Frontend & UI Developer, AI Developer',
-    githubUrl: 'https://github.com/SanuliY',
-    websiteUrl: 'https://eras.systems',
+    githubUrl: 'https://github.com/SanuliY/E.R.A.S.',
   },
   {
     id: '2',
@@ -28,45 +23,30 @@ export const projects: Project[] = [
     year: '2024',
     slug: 'task-bee-service-marketplace-mobile-app',
     coverImage:
-      'https://images.unsplash.com/photo-1521791136064-7986c2920216',
+      'https://plus.unsplash.com/premium_photo-1683134512538-7b390d0adc9e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvbWUlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D',
     description:
-      'A service marketplace mobile app designed to help users find trusted local workers for everyday tasks such as home cleaning, repairs, tutoring, and other personal services. The project focuses on simple navigation, clear service categories, and a smooth booking experience.',
-    tech: ['Figma', 'UI Design', 'UX Research', 'Prototyping'],
+      'A service marketplace mobile app designed to help users find trusted local workers for everyday services such as home cleaning, repairs, tutoring, and personal support. The project focuses on clear service categories, smooth booking flows, worker profiles, and user-friendly mobile navigation.',
+    tech: ['Figma', 'UI/UX Design', 'Prototyping'],
     role: 'UI/UX Designer',
     figmaUrl:
       'https://www.figma.com/design/mGlD8APl0NlhloJpL4rFYW/Task-Bee-Highfidelity-Prototype?node-id=0-1&t=ET4py5uT5jbxw9nT-1',
   },
   {
     id: '3',
-    title: 'Performance Pulse',
-    category: 'user interface',
-    year: '2024',
-    slug: 'performance-pulse',
+    title: 'StudySprint',
+    category: 'web',
+    year: '2026',
+    slug: 'study-sprint',
     coverImage:
-      'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
+      'https://images.unsplash.com/photo-1759984782024-ff13fd2b97b7?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     description:
-      'A sports performance analytics platform that turns raw match data into clear, actionable insights for athletes and coaches through interactive charts and dashboards.',
-    tech: ['React', 'TailwindCSS', 'Chart.js', 'Node.js'],
+      'A responsive study planning web app designed to help students organize academic tasks, manage schedules, set goals, and track study progress through a clean and intuitive dashboard experience.',
+    tech: ['React', 'TypeScript', 'TailwindCSS'],
     role: 'Frontend Developer',
-    githubUrl: 'https://github.com/SanuliY',
+    githubUrl: 'https://github.com/SanuliY/Study-Planner',
   },
   {
     id: '4',
-    title: 'Mental Health Support Application',
-    category: 'mobile',
-    year: '2024',
-    slug: 'mental-health-support-app',
-    coverImage:
-      'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
-    description:
-      'A Reality Tree concept app designed to help users reflect on thoughts, track mood, and access supportive tools — built with empathy-first UI and a calm, accessible design language.',
-    tech: ['Figma'],
-    role: 'UI/UX Designer',
-    githubUrl: 'https://github.com/SanuliY',
-    websiteUrl: 'https://mental-health-support-app.com',
-  },
-  {
-    id: '5',
     title: 'AI Resume Builder',
     category: 'ai',
     year: '2024',
@@ -74,11 +54,24 @@ export const projects: Project[] = [
     coverImage:
       'https://images.unsplash.com/photo-1586281380349-632531db7ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
     description:
-      'An ATS-friendly resume builder that helps students and early-career professionals craft clean, modern CVs with AI-assisted suggestions and one-click export.',
-    tech: ['React', 'OpenAI API', 'TailwindCSS'],
-    role: 'Frontend & UX',
+      'An ATS-friendly resume builder concept that helps students and early-career professionals create clean, modern CVs with guided sections, structured layouts, and AI-assisted content suggestions.',
+    tech: ['React', 'TailwindCSS', 'AI Integration'],
+    role: 'Frontend & UX Designer',
     githubUrl: 'https://github.com/SanuliY',
-    websiteUrl: 'https://ai-resume-builder.com',
+  },
+  {
+    id: '5',
+    title: 'Mental Health Support Application',
+    category: 'mobile',
+    year: '2024',
+    slug: 'mental-health-support-app',
+    coverImage:
+      'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
+    description:
+      'A calm and empathy-focused mobile app concept designed to help users reflect on their thoughts, track moods, and access supportive mental wellness tools through a gentle and accessible user interface.',
+    tech: ['Figma', 'UI/UX Design', 'Prototyping'],
+    role: 'UI/UX Designer',
+    figmaUrl: 'PASTE_YOUR_FIGMA_LINK_HERE',
   },
   {
     id: '6',
@@ -89,11 +82,24 @@ export const projects: Project[] = [
     coverImage:
       'https://images.unsplash.com/photo-1488646953014-85cb44e25828?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
     description:
-      'A frontend-focused travel planner where users can browse destinations, build itineraries, and visualize trip budgets — designed with smooth motion and a vibrant, photo-led layout.',
+      'A frontend-focused travel planner where users can explore destinations, build itineraries, and plan trips through a vibrant, responsive, and photo-led interface with smooth user interactions.',
     tech: ['React', 'TailwindCSS', 'Framer Motion'],
     role: 'Frontend Developer',
     githubUrl: 'https://github.com/SanuliY',
-    websiteUrl: 'https://tourism-travel-planner.com',
+  },
+  {
+    id: '7',
+    title: 'Performance Pulse',
+    category: 'user interface',
+    year: '2024',
+    slug: 'performance-pulse',
+    coverImage:
+      'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
+    description:
+      'A sports performance tracking platform concept designed to help athletes and coaches view player statistics, monitor progress, and understand performance insights through clear dashboard-style interfaces.',
+    tech: ['UI/UX Design', 'Figma', 'Data Visualization'],
+    role: 'UI/UX Designer',
+    figmaUrl: 'PASTE_YOUR_FIGMA_LINK_HERE',
   },
 ];
 
@@ -114,6 +120,9 @@ export const getAdjacentProjects = (
 
   return {
     prev: currentIndex > 0 ? projects[currentIndex - 1] : null,
-    next: currentIndex < projects.length - 1 ? projects[currentIndex + 1] : null,
+    next:
+      currentIndex < projects.length - 1
+        ? projects[currentIndex + 1]
+        : null,
   };
 };

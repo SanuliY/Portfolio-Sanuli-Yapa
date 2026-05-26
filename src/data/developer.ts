@@ -1,4 +1,5 @@
 import type { DeveloperInfo } from '@/types';
+import profilePic from '@/assets/about.png';
 
 export const developerInfo: DeveloperInfo = {
   name: 'Sanuli Yapa',
@@ -85,5 +86,5 @@ Informatics Institute of Technology (IIT) Sri Lanka`,
     instagram: 'https://www.instagram.com/?hl=en',
   },
   profileImage:
-    'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+    profilePic,
 };

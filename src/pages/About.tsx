@@ -4,6 +4,7 @@ import { developerInfo } from '@/data/developer';
 import { Separator } from '@/components/ui/separator';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { GroupedSkillsSection } from '@/components/about/GroupedSkillsSection';
+import aboutPhoto from "@/assets/about.png";
 
 export default function About() {
   return (

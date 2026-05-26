@@ -85,7 +85,7 @@ export const projects: Project[] = [
       'A frontend-focused travel planner where users can explore destinations, build itineraries, and plan trips through a vibrant, responsive, and photo-led interface with smooth user interactions.',
     tech: ['React', 'TailwindCSS', 'Framer Motion'],
     role: 'Frontend Developer',
-    githubUrl: 'https://github.com/SanuliY',
+    githubUrl: 'https://github.com/SanuliY/Travel-Planner',
   },
   {
     id: '7',

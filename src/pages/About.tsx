@@ -45,11 +45,11 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4 }}
               >
-                <div className="aspect-[3/4] relative overflow-hidden rounded-sm bg-muted">
+                <div className="relative overflow-hidden rounded-2xl bg-muted max-w-sm mx-auto">
                   <img
                     src={developerInfo.profileImage}
                     alt={developerInfo.name}
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className="w-full h-auto object-cover"
                   />
                 </div>
 

@@ -19,7 +19,7 @@ Whether it's a research-driven project, a hackathon prototype, or a UI/UX explor
     },
     {
       title: 'Frontend & Design',
-      items: ['React', 'TailwindCSS', 'Figma', 'Framer Motion', 'Responsive Design'],
+      items: ['React', 'TailwindCSS', 'Figma', 'Responsive Design'],
     },
     {
       title: 'Backend & Tools',
@@ -40,7 +40,7 @@ Whether it's a research-driven project, a hackathon prototype, or a UI/UX explor
     'Problem Solving',
     'Teamwork',
     'Time Management',
-    'Leadership',
+  
     'Analytical Thinking',
     'Presentation Skills',
   ],

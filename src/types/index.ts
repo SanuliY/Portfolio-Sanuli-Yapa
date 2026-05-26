@@ -2,7 +2,7 @@
  * Core TypeScript interfaces for the developer portfolio
  */
 
-export type ProjectCategory = 'web' | 'mobile' | 'uiux' | 'ai' | 'research';
+export type ProjectCategory = 'web' | 'mobile' | 'uiux' | 'ai' | 'research' | 'collaboration' | 'user interface';
 
 export type AspectRatio = 'portrait' | 'landscape' | 'square';
 
@@ -27,7 +27,8 @@ export interface Project {
   role?: string;
   githubUrl?: string;
   liveUrl?: string;
-  slug: string;
+  slug: string; 
+  websiteUrl?: string;
 }
 
 export interface SkillGroup {

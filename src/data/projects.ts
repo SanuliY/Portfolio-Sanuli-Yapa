@@ -8,7 +8,7 @@ export const projects: Project[] = [
   {
     id: '1',
     title: 'Elephant Railway Alert System — E.R.A.S',
-    category: 'research',
+    category: 'collaboration',
     year: 'Ongoing',
     status: 'ongoing',
     slug: 'elephant-railway-alert-system',
@@ -17,13 +17,14 @@ export const projects: Project[] = [
     description:
       'A railway safety solution integrating CCTV-based detection and early-warning alerts to help prevent train–elephant collisions. My focus is on the frontend dashboard and alert visualization for railway operators.',
     tech: ['React', 'TailwindCSS', 'Computer Vision', 'IoT'],
-    role: 'Frontend & UI/UX',
-    githubUrl: 'https://github.com/sanuli-yapa',
+    role: 'Frontend & UI Developer,AI developer',
+    githubUrl: 'https://github.com/SanuliY',
+    websiteUrl: 'eras.systems',
   },
   {
     id: '2',
     title: 'Performance Pulse',
-    category: 'web',
+    category: 'user interface',
     year: '2024',
     slug: 'performance-pulse',
     coverImage:
@@ -32,7 +33,7 @@ export const projects: Project[] = [
       'A sports performance analytics platform that turns raw match data into clear, actionable insights for athletes and coaches through interactive charts and dashboards.',
     tech: ['React', 'TailwindCSS', 'Chart.js', 'Node.js'],
     role: 'Frontend Developer',
-    githubUrl: 'https://github.com/sanuli-yapa',
+    githubUrl: 'https://github.com/SanuliY',
   },
   {
     id: '3',
@@ -46,7 +47,8 @@ export const projects: Project[] = [
       'A "Reality Tree" concept app designed to help users reflect on thoughts, track mood, and access supportive tools — built with empathy-first UI and a calm, accessible design language.',
     tech: ['React Native', 'Figma', 'UI/UX Research'],
     role: 'UI/UX & Frontend',
-    githubUrl: 'https://github.com/sanuli-yapa',
+    githubUrl: 'https://github.com/SanuliY',
+
   },
   {
     id: '4',
@@ -60,7 +62,8 @@ export const projects: Project[] = [
       'An ATS-friendly resume builder that helps students and early-career professionals craft clean, modern CVs with AI-assisted suggestions and one-click export.',
     tech: ['React', 'OpenAI API', 'TailwindCSS'],
     role: 'Frontend & UX',
-    githubUrl: 'https://github.com/sanuli-yapa',
+    githubUrl: 'https://github.com/SanuliY',
+    websiteUrl: 'ai-resume-builder.com',
   },
   {
     id: '5',
@@ -74,7 +77,8 @@ export const projects: Project[] = [
       'A frontend-focused travel planner where users can browse destinations, build itineraries, and visualize trip budgets — designed with smooth motion and a vibrant, photo-led layout.',
     tech: ['React', 'TailwindCSS', 'Framer Motion'],
     role: 'Frontend Developer',
-    githubUrl: 'https://github.com/sanuli-yapa',
+    githubUrl: 'https://github.com/SanuliY',
+    websiteUrl: 'tourism-travel-planner.com',
   },
 ];
 

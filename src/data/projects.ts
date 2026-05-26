@@ -17,28 +17,27 @@ export const projects: Project[] = [
     description:
       'A railway safety solution integrating CCTV-based detection and early-warning alerts to help prevent train–elephant collisions. My focus is on the frontend dashboard and alert visualization for railway operators.',
     tech: ['React', 'TailwindCSS', 'Computer Vision', 'IoT'],
-    role: 'Frontend & UI Developer,AI developer',
+    role: 'Frontend & UI Developer, AI Developer',
     githubUrl: 'https://github.com/SanuliY',
-    websiteUrl: 'eras.systems',
+    websiteUrl: 'https://eras.systems',
   },
-
-   {
-    id: '3',
-    title: 'Task Bee ',
-    category: 'mobile',
-    year: '2024',
-    slug: 'mental-health-support-app',
-    coverImage:
-      'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
-    description:
-      'Service Marketplace Mobile Application designed to connect users with local service providers for tasks like home cleaning, repairs, and tutoring. Built with a focus on user-friendly design and seamless booking experience.',
-    tech: ['Figma'],
-    role: 'UI/UX Designer',
-    figmaUrl: 'https://www.figma.com/design/mGlD8APl0NlhloJpL4rFYW/Task-Bee-Highfidelity-Prototype?node-id=0-1&t=ET4py5uT5jbxw9nT-1',
-  },
-  
   {
     id: '2',
+    title: 'Task Bee',
+    category: 'user interface',
+    year: '2024',
+    slug: 'task-bee-service-marketplace-mobile-app',
+    coverImage:
+      'https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
+    description:
+      'A service marketplace mobile app designed to help users find trusted local workers for everyday tasks such as home cleaning, repairs, tutoring, and other personal services. The project focuses on simple navigation, clear service categories, and a smooth booking experience.',
+    tech: ['Figma', 'UI Design', 'UX Research', 'Prototyping'],
+    role: 'UI/UX Designer',
+    figmaUrl:
+      'https://www.figma.com/design/mGlD8APl0NlhloJpL4rFYW/Task-Bee-Highfidelity-Prototype?node-id=0-1&t=ET4py5uT5jbxw9nT-1',
+  },
+  {
+    id: '3',
     title: 'Performance Pulse',
     category: 'user interface',
     year: '2024',
@@ -52,7 +51,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/SanuliY',
   },
   {
-    id: '3',
+    id: '4',
     title: 'Mental Health Support Application',
     category: 'mobile',
     year: '2024',
@@ -60,14 +59,14 @@ export const projects: Project[] = [
     coverImage:
       'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
     description:
-      'A "Reality Tree" concept app designed to help users reflect on thoughts, track mood, and access supportive tools — built with empathy-first UI and a calm, accessible design language.',
+      'A Reality Tree concept app designed to help users reflect on thoughts, track mood, and access supportive tools — built with empathy-first UI and a calm, accessible design language.',
     tech: ['Figma'],
     role: 'UI/UX Designer',
     githubUrl: 'https://github.com/SanuliY',
-    websiteUrl: 'mental-health-support-app.com',
+    websiteUrl: 'https://mental-health-support-app.com',
   },
   {
-    id: '4',
+    id: '5',
     title: 'AI Resume Builder',
     category: 'ai',
     year: '2024',
@@ -79,10 +78,10 @@ export const projects: Project[] = [
     tech: ['React', 'OpenAI API', 'TailwindCSS'],
     role: 'Frontend & UX',
     githubUrl: 'https://github.com/SanuliY',
-    websiteUrl: 'ai-resume-builder.com',
+    websiteUrl: 'https://ai-resume-builder.com',
   },
   {
-    id: '5',
+    id: '6',
     title: 'Tourism & Travel Planner',
     category: 'web',
     year: '2024',
@@ -94,7 +93,7 @@ export const projects: Project[] = [
     tech: ['React', 'TailwindCSS', 'Framer Motion'],
     role: 'Frontend Developer',
     githubUrl: 'https://github.com/SanuliY',
-    websiteUrl: 'tourism-travel-planner.com',
+    websiteUrl: 'https://tourism-travel-planner.com',
   },
 ];
 
@@ -112,6 +111,7 @@ export const getAdjacentProjects = (
   currentSlug: string
 ): { prev: Project | null; next: Project | null } => {
   const currentIndex = projects.findIndex((p) => p.slug === currentSlug);
+
   return {
     prev: currentIndex > 0 ? projects[currentIndex - 1] : null,
     next: currentIndex < projects.length - 1 ? projects[currentIndex + 1] : null,

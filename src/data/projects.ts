@@ -106,15 +106,15 @@ export const projects: Project[] = [
     id: '7',
     title: 'Future Interface - Article',
     category: 'Research',
-    year: '2024',
+    year: '2026',
     slug: 'future-interface-article',
     coverImage:
-      'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
+      'https://media.istockphoto.com/id/2212360504/photo/holographic-ui-ux-display-icons-of-ux-ui-designer-creative-planning-data-visualization-web.jpg?s=2048x2048&w=is&k=20&c=Lcx7WupVOFhWObH51TlPlLkyS8yEcVgvCC10CQRSrFk=',
     description:
       'An interactive UI/UX article platform exploring how artificial intelligence is transforming design, user experiences, accessibility, and the future of digital products.',
-    tech: ['UI/UX Design'],
+    tech: ['UI/UX Design', 'Article Writing', 'Figma, Prototyping','AI Conceptualization'],
     role: 'UI/UX Designer',
-    websiteUrl: 'PASTE_YOUR_FIGMA_LINK_HERE',
+    websiteUrl: 'future-interface.vercel.app',
   },
 
   

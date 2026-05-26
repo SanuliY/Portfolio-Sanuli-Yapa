@@ -29,6 +29,7 @@ export interface Project {
   liveUrl?: string;
   slug: string; 
   websiteUrl?: string;
+  figmaUrl?: string;
 }
 
 export interface SkillGroup {

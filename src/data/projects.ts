@@ -21,6 +21,22 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/SanuliY',
     websiteUrl: 'eras.systems',
   },
+
+   {
+    id: '3',
+    title: 'Task Bee ',
+    category: 'mobile',
+    year: '2024',
+    slug: 'mental-health-support-app',
+    coverImage:
+      'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
+    description:
+      'Service Marketplace Mobile Application designed to connect users with local service providers for tasks like home cleaning, repairs, and tutoring. Built with a focus on user-friendly design and seamless booking experience.',
+    tech: ['Figma'],
+    role: 'UI/UX Designer',
+    figmaUrl: 'https://www.figma.com/design/mGlD8APl0NlhloJpL4rFYW/Task-Bee-Highfidelity-Prototype?node-id=0-1&t=ET4py5uT5jbxw9nT-1',
+  },
+  
   {
     id: '2',
     title: 'Performance Pulse',
@@ -45,10 +61,10 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
     description:
       'A "Reality Tree" concept app designed to help users reflect on thoughts, track mood, and access supportive tools — built with empathy-first UI and a calm, accessible design language.',
-    tech: ['React Native', 'Figma', 'UI/UX Research'],
-    role: 'UI/UX & Frontend',
+    tech: ['Figma'],
+    role: 'UI/UX Designer',
     githubUrl: 'https://github.com/SanuliY',
-
+    websiteUrl: 'mental-health-support-app.com',
   },
   {
     id: '4',

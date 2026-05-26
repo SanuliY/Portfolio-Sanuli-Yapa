@@ -28,7 +28,7 @@ export const projects: Project[] = [
     year: '2024',
     slug: 'task-bee-service-marketplace-mobile-app',
     coverImage:
-      'https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
+      'https://images.unsplash.com/photo-1521791136064-7986c2920216',
     description:
       'A service marketplace mobile app designed to help users find trusted local workers for everyday tasks such as home cleaning, repairs, tutoring, and other personal services. The project focuses on simple navigation, clear service categories, and a smooth booking experience.',
     tech: ['Figma', 'UI Design', 'UX Research', 'Prototyping'],

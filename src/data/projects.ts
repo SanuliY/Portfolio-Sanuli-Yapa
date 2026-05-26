@@ -47,22 +47,22 @@ export const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'AI Resume Builder',
+    title: 'ATS Friendly Resume Checker',
     category: 'ai',
     year: '2024',
-    slug: 'ai-resume-builder',
+    slug: 'ats-friendly-resume-checker',
     coverImage:
       'https://images.unsplash.com/photo-1586281380349-632531db7ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
     description:
-      'An ATS-friendly resume builder concept that helps students and early-career professionals create clean, modern CVs with guided sections, structured layouts, and AI-assisted content suggestions.',
+      'An ATS-friendly resume checker concept that helps students and early-career professionals create clean, modern CVs with guided sections, structured layouts, and AI-assisted content suggestions.',
     tech: ['React', 'TailwindCSS', 'AI Integration'],
     role: 'Frontend & UX Designer',
-    githubUrl: 'https://github.com/SanuliY',
+    githubUrl: 'https://github.com/SanuliY/AI-resume-analyzer',
   },
   {
     id: '5',
     title: 'Mental Health Support Application',
-    category: 'mobile',
+    category: 'user interface',
     year: '2024',
     slug: 'mental-health-support-app',
     coverImage:
@@ -75,10 +75,10 @@ export const projects: Project[] = [
   },
   {
     id: '6',
-    title: 'Tourism & Travel Planner',
+    title: 'Travel Planner',
     category: 'web',
     year: '2024',
-    slug: 'tourism-travel-planner',
+    slug: 'travel-planner',
     coverImage:
       'https://images.unsplash.com/photo-1488646953014-85cb44e25828?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
     description:
@@ -97,10 +97,28 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
     description:
       'A sports performance tracking platform concept designed to help athletes and coaches view player statistics, monitor progress, and understand performance insights through clear dashboard-style interfaces.',
-    tech: ['UI/UX Design', 'Figma', 'Data Visualization'],
+    tech: ['UI/UX Design', 'Figma'],
     role: 'UI/UX Designer',
     figmaUrl: 'PASTE_YOUR_FIGMA_LINK_HERE',
   },
+
+  {
+    id: '7',
+    title: 'Future Interface - Article',
+    category: 'Research',
+    year: '2024',
+    slug: 'future-interface-article',
+    coverImage:
+      'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1280',
+    description:
+      'An interactive UI/UX article platform exploring how artificial intelligence is transforming design, user experiences, accessibility, and the future of digital products.',
+    tech: ['UI/UX Design'],
+    role: 'UI/UX Designer',
+    websiteUrl: 'PASTE_YOUR_FIGMA_LINK_HERE',
+  },
+
+  
+
 ];
 
 export const getProjectBySlug = (slug: string): Project | undefined =>

@@ -46,7 +46,7 @@ export interface ExperienceItem {
 
 export interface LanguageItem {
   language: string;
-  level: string;
+
 }
 
 export interface DeveloperInfo {

@@ -67,9 +67,9 @@ Whether it's a research-driven project, a hackathon prototype, or a UI/UX explor
     },
   ],
   languages: [
-    { language: 'English', level: 'Professional working proficiency' },
-    { language: 'Sinhala', level: 'Native proficiency' },
-    { language: 'Tamil', level: 'Reading & writing' },
+    { language: 'English' },
+    { language: 'Sinhala' },
+    { language: 'Tamil' },
   ],
   education: 'BSc (Hons) Computer Science — University of Westminster • IIT Sri Lanka',
   location: 'Sri Lanka',

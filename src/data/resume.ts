@@ -112,9 +112,9 @@ export const resumeData: ResumeData = {
   ],
 
   languages: [
-    { language: 'English', level: 'Fluent' },
-    { language: 'Sinhala', level: 'Native' },
-    { language: 'Tamil', level: 'Reading & Writing' },
+    { language: 'English'},
+    { language: 'Sinhala'},
+,
   ],
 
   references: [

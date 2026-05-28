@@ -69,7 +69,7 @@ Whether it's a research-driven project, a hackathon prototype, or a UI/UX explor
   languages: [
     { language: 'English' },
     { language: 'Sinhala' },
-    { language: 'Tamil' },
+   
   ],
   education: 'BSc (Hons) Computer Science — University of Westminster • IIT Sri Lanka',
   location: 'Sri Lanka',
